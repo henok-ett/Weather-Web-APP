@@ -187,12 +187,15 @@ body{
 
 }
 
-@media only screen and (max-width: 1400px){
-    .future-forecast{
-        justify-content: start;
-        align-items: none;
-        overflow-x: scroll;
+@media screen and (max-width: 1400px) {
+    .future-forecast {
+        display: flex;
+        justify-content: flex-start;
+        align-items: unset;
+        overflow-x: auto;
     }
+}
+
 }
 
 
