@@ -16,7 +16,7 @@ const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', '
 // Declaring API_KEy from the weather api
 const API_KEY ='49cc8c821cd2aff9af04c9f98c36eb74';
 
-// Function to get weather data and accesss current location of user
+// Function to get weather data and accesss current location of user automatically
 setInterval(() => {
     const time = new Date();
     const month = time.getMonth();
